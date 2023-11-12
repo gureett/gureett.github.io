@@ -541,6 +541,7 @@ body.dark-theme{
   }
   
   .footer_copy{
+    justify-content: center;
     margin: 4.5rem 0 2.5rem;
   }
 }
