@@ -197,6 +197,7 @@ body.dark-theme{
 .profile__social{
   display: flex;
   justify-content: center;
+  align-items: center;
   column-gap: .75rem;
 }
 
@@ -542,6 +543,7 @@ body.dark-theme{
   
   .footer_copy{
     justify-content: center;
+    align-items: center;
     margin: 4.5rem 0 2.5rem;
   }
 }
