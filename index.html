@@ -83,13 +83,37 @@
         <main class="main">
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button" data-target="#projects">
+                        Projects
+                    </button>
+
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
 
                 <div class="filters__sections">
                     <!--=============== PROJECTS ===============-->
-                    
+                    <div class="projects__content grid" data-content id="projects">
+                        <!-- Code for One Project (copy paste for as many projects needed)-->
+                        <article class="projects__card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <span class="projects__subtitle">Download Manager</span>
+                                <h3 class="projects__title">Rainy</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
 
                     <!--=============== SKILLS ===============-->
-                    
+                    <div class="skills__content grid" data-content id="skills">
+
+                    </div>
                 </div>
             </section>
         </main>
