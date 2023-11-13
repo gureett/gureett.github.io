@@ -452,11 +452,11 @@ body.dark-theme{
   }
 
   .profile__info{
+    padding-left: 0;
     column-gap: 1.5rem;
   }
 
   .profile__buttons{
-    padding-left: 3.25rem; /* To center the buttons */
     flex-direction: column;
     row-gap: 1rem;
   }
