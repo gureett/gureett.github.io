@@ -212,8 +212,8 @@ body.dark-theme{
 }
 
 .profile__info{
+  display: grid;
   grid-template-columns: repeat(3, max-content);
-  justify-content: center;
   column-gap: 2.5rem;
 }
 
