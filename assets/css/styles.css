@@ -452,7 +452,7 @@ body.dark-theme{
   }
 
   .profile{
-    padding: 0;
+    padding-right: 3rem;
   }
 
   .profile__info{
