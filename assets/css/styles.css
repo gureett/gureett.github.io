@@ -456,11 +456,13 @@ body.dark-theme{
   }
 
   .profile__buttons{
+    padding-left: 3.25rem; /* To center the buttons */
     flex-direction: column;
     row-gap: 1rem;
   }
 
   .skills__box{
+    padding-left: 3.25rem; /* To center the projects */
     column-gap: 1rem;
   }
 }
