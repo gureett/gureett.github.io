@@ -212,7 +212,7 @@ body.dark-theme{
 }
 
 .profile__info{
-  display: grid;
+  justify-self: center;
   grid-template-columns: repeat(3, max-content);
   column-gap: 2.5rem;
 }
