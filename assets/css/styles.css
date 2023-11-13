@@ -212,7 +212,7 @@ body.dark-theme{
 }
 
 .profile__info{
-  justify-self: center;
+  display: grid;
   grid-template-columns: repeat(3, max-content);
   column-gap: 2.5rem;
 }
@@ -492,6 +492,8 @@ body.dark-theme{
 /* For large devices */
 @media screen and (min-width: 992px){
   .container{
+    display: grid;
+    place-items: center;
     margin-left: auto;
     margin-right: auto;
   }
