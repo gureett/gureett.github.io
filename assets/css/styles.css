@@ -451,6 +451,10 @@ body.dark-theme{
     margin-right: 1rem;
   }
 
+  .profile{
+    padding: 0;
+  }
+
   .profile__info{
     padding-left: 0;
     column-gap: 1.5rem;
