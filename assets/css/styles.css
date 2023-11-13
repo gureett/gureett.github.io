@@ -212,8 +212,8 @@ body.dark-theme{
 }
 
 .profile__info{
-  padding-left: 3rem; /* For border left */
-  justify-content: unsafe center;
+  padding-left: 3.5rem; /* For border left */
+  justify-content: center;
   grid-template-columns: repeat(3, max-content);
   column-gap: 2.5rem;
 }
